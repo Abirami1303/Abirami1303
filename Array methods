@@ -53051,6 +53051,7 @@ const asia=countryData.filter((a)=>{
     if(a.region==='Asia'){
         return a.name;}
     }
+    console.log(asia);
 
 b.Get all the countries with a population of less than 2 lakhs using Filter function
     const populate=countryData.filter((element)=>{
@@ -53068,11 +53069,7 @@ const population=countryData.reduce((acc,element)=>{
     return acc+element.population;
 })
 
-e. Print the country that uses US dollars as currency.
-for(i=0;i<countrydata.length;i++){
-    if(countrydata[i].currencies[0].code==="USD")
-   {
-       console.log("name:",countrydata[i].name,"==>",countrydata[i].currencies[0].code)
-   }
- }
-}
+e.Print the country that uses US dollars as currency.
+const countriesUsingUSD=countryData.filter(country=>country.currencies&&country.currencies.USD);
+const countryNames=countriesUsingUSD.map(country=>country.name.common);
+console.log(countryNames);
