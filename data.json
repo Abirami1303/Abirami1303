@@ -53042,37 +53042,4 @@ let countryData = [
 ]
 
 
-let names = countryData.map((e)=>e.name.common)
-console.log(names)
 
-a.Get all the countries from Asia continent /region using Filter function
-
-const asia=countryData.filter((a)=>{
-    if(a.region==='Asia'){
-        return a.name;}
-    }
-
-b.Get all the countries with a population of less than 2 lakhs using Filter function
-    const populate=countryData.filter((element)=>{
-        return element.population<200000;
-   })
-   console.log(populate);
-
-c. Print the following details name, capital, flag, using forEach function
-   countryData.forEach((element)=>{
-    console.log(element.name,element.capital,element.flag);
-})
-
-d. Print the total population of countries using reduce function
-const population=countryData.reduce((acc,element)=>{
-    return acc+element.population;
-})
-
-e. Print the country that uses US dollars as currency.
-for(i=0;i<countrydata.length;i++){
-    if(countrydata[i].currencies[0].code==="USD")
-   {
-       console.log("name:",countrydata[i].name,"==>",countrydata[i].currencies[0].code)
-   }
- }
-}

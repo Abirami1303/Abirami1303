@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTT&CSS</title>
+    <style>
+        *{
+            background-color: thistle;
+        }
+        p{
+          background-color: thistle;
+        }
+        p{
+            background-color:bisque
+        }
+        .class-div{
+            background-color:pink;
+        }
+        #id-div{
+            background-color: chocolate;
+        }
+
+        .border{
+            border: 1px solid black;
+        }
+
+        .color{
+            color:maroon;
+        }
+
+        div{
+            background-color: cadetblue;
+        }
+        div{
+            background-color: cadetblue !important;
+        }
+        .btn{
+            border: 1px solid #17a1d7;
+            font-size: xx-large;
+            background-color: rgb(23, 161, 215);
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .next{
+           display: block;
+        }
+
+        a:link{
+            color: black;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+       a:active{
+        color: khaki;
+       }
+
+       input:focus{
+        background-color: yellow;
+    </style>
+</head>
+<body>
+    <h1>Welcome to CSS</h1>
+    <div> Ways of writing CSS</div>
+    <ul>
+        <li>Inline CSS</li>
+        <li>InternalCSS</li>
+        <li>External css</li>
+    </ul>
+<div style="color: red;">This is an example of Inline CSS</div>
+
+<div>Example for Internal CSS</div>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+
+<p>Selectors in CSS</p>
+<ul>
+    <li>HTML Elements</li>
+    <li>Class Name (.)</li>
+    <li> ID (#)</li>
+    <li>Universal Selector(*)</li>
+</ul>
+
+<div class=""class-div"> This div is dtyled by class selector</div>
+
+<div id="id-div"> This div is styled by id</div>
+
+<div class="class-div" id="This div is styled by both class and id to check their priority and the style of id is applied"></div>
+
+<p> The priority of css selector is as follows</p>
+
+<ol>
+    <li>Id</li>
+    <li>Class</li>
+    <li>HTML Elements</li>
+    <li>Universal Elements</li>
+</ol>
+
+<p>
+        Despite of having the priority order if we are giving the !important for any property then that will be
+        the applied property for the html element
+    </p>
+
+<div class="border class-div color">We always can have multiple class names seperated by spaces</div>
+
+<button class="btn">sample</button> 
+
+<a href="./next.html" class="next">Next</a>
+
+    <input type="text" name="sample">
+</body>
+</html>

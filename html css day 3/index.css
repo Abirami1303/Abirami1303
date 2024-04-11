@@ -1,0 +1,32 @@
+/*h1{
+    text-align: center;
+    margin: 0% 30% 0% 30%;
+
+    border: 10px solid black;
+    /*    top right bootom left */
+    padding: 50px;
+
+}  
+
+.wrapper{
+    margin: 5px;
+    padding:5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card-wrapper{
+    width:220px;
+    border: 1px outset black;
+    padding: 10px;
+    margin: 10px;
+}
+.content{
+    width: 400px !important;
+    height:200px !important;
+    display:flex;
+    flex-direction: row;
+}
+.reverse{
+    flex-direction: row-reverse !important;
+}
