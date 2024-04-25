@@ -1,52 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
     padding: 0;
 }
 
-.main {
-    width: 300px;
-    margin: 50px auto;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+
+.pagination li {
+    margin: 0 5px;
 }
 
-#res {
-    width: calc(100% - 40px);
-    height: 50px;
-    font-size: 24px;
-    text-align: right;
-    margin-bottom: 10px;
-    padding: 5px 10px;
+
+.pagination li a {
+    text-decoration: none;
+    padding: 8px 12px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
+    color: #333;
 }
 
-.btn table {
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+/* User list styles */
+.user-list {
+    margin-top: 20px;
+}
+
+
+.user-list table {
     width: 100%;
+    border-collapse: collapse;
 }
 
-.btn table tr td {
-    padding: 5px;
+
+.user-list th, .user-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
 
-input[type="button"] {
-    width: 70px;
-    height: 50px;
-    font-size: 20px;
-    border: none;
-    outline: none;
-    background-color: #f0f0f0;
-    cursor: pointer;
-}
 
-input[type="button"]:hover {
-    background-color: #ddd;
-}
-
-input[type="button"]:active {
-    background-color: #bbb;
+.user-list th {
+    background-color: #f2f2f2;
 }
