@@ -1,0 +1,142 @@
+
+nav{
+    background-color: black;
+    color: white;
+}
+.top{
+        height:400px;
+}
+.middle{
+    height:100px;
+}
+ul
+{
+    margin-left: 10%;
+}
+.home{
+margin-left:20px;
+}
+h1{
+    padding-top: 95px;
+}
+h2{
+    padding-top: 35px;
+}
+h1, h4,h2{
+    text-align: center;
+    }
+
+p{
+    height: 200px;
+    width:400px
+}
+.box{
+   
+    padding-top: 50px;
+    padding-left:250px;
+    display:inline-block;
+}
+.icon{
+    text-align: center;
+}
+#award{
+    padding-top: 50px;
+}
+.award{
+    padding-top: 30px;
+    padding-left:290px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+   }
+.line{
+    width:700px;
+    height:opx;
+    border: 1px solid #c4c4c4;
+    margin:3px;
+    display:inline-block;
+    }
+.box1{
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 4px;
+    border-style:solid;
+    display:inline-block;
+    margin-top:20px;
+}
+#p1{
+    height:60px;
+    width:200px;
+    margin-left: 8px;
+    margin-top:0px;
+}
+.ul1{
+    font-size: x-small;
+    flex-direction: row;
+}
+#ul1{
+    margin-left: -50px;
+}
+#ul2{
+    margin-left: -90px;
+}
+#poem {
+    padding-top: 50px;
+    padding-left:160px;
+}
+
+.line1 {
+    padding-left: 25px;
+    width:300px;
+    height:0px;
+    border: 1px solid #c4c4c4;
+    margin:3px;
+    display:inline-block;
+}
+.list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.end{
+        height: 150px;
+        margin-top:50px;
+        padding-left: 270px;
+        display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+h5{
+    display:inline-block;
+    margin-bottom: 0px;
+    }
+
+.p2 {
+        display:inline-block;
+        padding-right: 40px; 
+        margin-top: 2px;
+        }
+.p3{
+    margin-top: 2px;
+}        
+
+ .line2{
+    width:0px;
+    height:100px;
+    border: 1px solid #2e2c2c;
+    margin:1px;
+    display:inline-block;height:
+ }   
+ .divend1{
+    margin-right: -75px;
+
+ }
+ .divend2{
+    margin-right: -195px;
+
+ }
+
+ 
+
+  
