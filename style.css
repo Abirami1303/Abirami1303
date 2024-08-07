@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+section {
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+#timer .countdown-wrapper {
+    margin: 0 auto;
+}
+#timer .card-header{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+#timer #countdown {
+    font-family: sans-serif;
+    text-align: center;
+    color: #eee;
+    text-shadow: 1px 1px 5px black;
+    padding: 40px 0;
+}
+#countdown .timer{
+    margin: 10px;
+    padding: 20px;
+    font-size: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#timer .countdown-wrapper #countdown #sec{
+    box-shadow: 0 0 0 5px rgba(2, 117, 216, .5)
+}
+#timer .countdown-wrapper #countdown #sec:hover{
+    box-shadow: 0 0 0 5px rgba(2, 117, 216, 1)
+}
+#timer #wishes-content{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
