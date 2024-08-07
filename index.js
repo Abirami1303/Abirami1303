@@ -1,37 +1,17 @@
-setTimeout(() => {
-    console.log("10");
-    setTimeout(() => {
-        console.log("9");
-        setTimeout(() => {
-            console.log("8");
-            setTimeout(() => {
-                console.log("7");
-                setTimeout(() => {
-                    console.log("6");
-                    setTimeout(() => {
-                        console.log("5");
-                        setTimeout(() => {
-                            console.log("4");
-                            setTimeout(() => {
-                                console.log("3");
-                                setTimeout(() => {
-                                    console.log("2");
-                                    setTimeout(() => {
-                                        console.log("1");
-                                        setTimeout(() => {
-                                            console.log("Happy Independence Day");
-                                            // Display message on the screen here
-                                            const messageElement = document.createElement("p");
-                                            messageElement.textContent = "Happy Independence Day";
-                                            document.body.appendChild(messageElement);
-                                        }, 1000);
-                                    }, 1000);
-                                }, 1000);
-                            }, 1000);
-                        }, 1000);
-                    }, 1000);
-                }, 1000);
-            }, 1000);
-        }, 1000);
-    }, 1000);
-}, 1000);
+function Solve(val) {
+  var v = document.getElementById('res');
+  v.value += val;
+}
+function Result() {
+  var num1 = document.getElementById('res').value;
+  var num2 = eval(num1);
+  document.getElementById('res').value = num2;
+}
+function Clear() {
+  var inp = document.getElementById('res');
+  inp.value = '';
+}
+function Back() {
+  var ev = document.getElementById('res');
+  ev.value = ev.value.slice(0,-1);
+}
